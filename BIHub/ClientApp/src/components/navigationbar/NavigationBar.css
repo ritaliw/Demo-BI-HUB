@@ -1,0 +1,87 @@
+#navbar .btn-icon {
+    border: none;
+    background-color: rgb(255, 255, 252)
+}
+
+#navbar .dropdown-menu {
+    right: 0;
+    left: auto;
+    margin-right: -16px;
+    margin-top: 9px;
+    padding: 13px
+}
+#navbar .icon-right
+{
+    height: 25px;
+    width: 25px;
+}
+
+#navbar .expmode
+{
+    display: contents;
+}
+.expmode .nav-item
+{
+margin-right:5px;
+}
+#navbar {
+    background-Color: #FFFFFC;
+    border: 1px solid #C5CDD1;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    border-left: none;
+}
+
+#navbar .navbar-brand {
+    margin-Right: 80px;
+    font-size: 24px;
+    cursor: default;
+}
+
+#navbar .profile-view {
+    color: black;
+    font-size: 12px;
+    margin: 5px
+}
+
+#navbar .material-icons {
+    color: black;
+}
+
+#navbar .srch {
+    margin-right: -10px
+}
+
+#navbar .nav-link {
+    padding: -0.5rem 1rem !important;
+}
+
+/* .dropdown-toggle
+{
+    display: none;
+} */
+
+#navbar .dropdown-menu.show {
+    display: block;
+    margin-top: 8px;
+}
+
+#navbar .icon-mail {
+    height: 22px;
+    margin-right: 10px;
+}
+
+#navbar .nav-item {
+    padding: 8px;
+}
+
+#navbar .userProfile {
+    height: 25px;
+    margin-left: -5px;
+    border-radius: 31px;
+}
+
+#navbar .dropdown-item.disabled, .dropdown-item:disabled {
+    color: #212529;
+}

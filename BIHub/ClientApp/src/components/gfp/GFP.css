@@ -1,0 +1,180 @@
+  .panelTitle {
+    color: #000000;
+    font: 25px "Segoe UI", sans-serif;
+    padding: 5px 0 10px 0;
+  }
+
+  .filterDataWrapper {
+    text-align: left;
+  }
+
+  .filterWrapper {
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    width: 300px;
+    display: block;
+    float: right;
+    background-color: #f5f5f5;
+    /* padding-left: 15px; */
+    height: calc(94vh) !important;
+    width: 31.5% !important;
+    /* padding-right: 0 !important; */
+    padding-left: 20px !important;
+  }
+
+  .leftnavigation {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    width: 300px;
+    display: block;
+    float: right;
+    background-color: #f5f5f5;
+    padding-left: 15px;
+  }
+
+  .leftnavigation {
+    float: left;
+    left: 0;
+  }
+
+  .filterGrouppHeaderClass {
+    padding-top: 6px;
+    background-color: transparent;
+    color: #000000;
+    font-size: 16px;
+    line-height: 120%;
+    padding-bottom: 6px;
+    display: inline-block;
+    position: relative;
+    max-height: 35px;
+    min-height: 35px;
+  }
+
+  .GFPBtn {
+    position: absolute;
+    width: 600px;
+    z-index: 100;
+    top: calc(85vh);
+  }
+
+  .filterApplyBtn, .filterClearBtn {
+    background-color: #0078D7;
+    border: 0;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 14px;
+    height: 34px;
+    margin-left: 10px;
+    padding: 5px 0 8px 0;
+    float: left;
+    width: 85px;
+    margin-left: 32px;
+    border-radius: 4px;
+    outline: none;
+  }
+
+  .GFPFilterItemText {
+    margin-left: 12px;
+    font-size: 14px;
+    display: inline-block;
+    width: 150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: top;
+  }
+
+  .filterValues {
+    list-style-type: none;
+    padding: 7px;
+    height: 125px;
+    margin: -82px 14px;
+    float: right;
+  }
+
+  /*Filter Group*/
+
+  .filterGroupList, .filterLevel {
+    border-style: solid;
+    border-color: #D3D3D3;
+    border-width: 1px;
+    margin: 3px 0 0;
+    max-width: 230px !important;
+    min-width: 220px !important;
+    max-height: 350px;
+    overflow-y: auto;
+  }
+
+  .filterGroupList>input+label, .filterLevel>input+label {
+    display: block;
+    cursor: pointer;
+    background-color: #fff;
+    text-align: left;
+    border-style: solid;
+    border-color: #D3D3D3;
+    border-width: 1px;
+    font-size: 14px;
+    min-height: 35px;
+    padding: 5px 0 0 15px;
+    margin-bottom: 0;
+    font-weight: normal;
+  }
+
+  .filterGroupList>input, .filterLevel>input {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .filterGroupList>input:checked+label, .filterLevel>input:checked+label {
+    background-color: #0078D7;
+    color: white;
+  }
+
+  .filterGroupList label>span, .filterLevel label>span {
+    display: none;
+  }
+
+  .filterLevel>input:checked+label {
+    background-color: #6e6e6e;
+    color: white;
+  }
+
+  .pageNavigationList {
+    list-style: none;
+  }
+
+  .treeCollapseIcon {
+    margin: 0 5px;
+    vertical-align: baseline;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .filterWrapper .rstm-search {
+    display: none;
+  }
+
+  .filterWrapper ul.rstm-tree-item-group {
+    list-style: none;
+  }
+
+  .filterLevelValues {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 256px !important;
+  }
+
+  .filterLevel {
+    border: none;
+  }
+
+  .filterLevelValue, #filterLevelLabel {
+    margin: 2px 0px 0px 12px;
+    font-size: 14px;
+    font-weight: normal;
+  }

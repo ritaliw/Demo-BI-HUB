@@ -1,0 +1,23 @@
+.powerbi-frame {
+    height: 100%;
+}
+
+.reportPageDiv {
+    height: 100%;
+    display: flex;
+}
+
+#filterPanelOpen {
+    outline: none;
+    border: none;
+}
+
+.report>iframe {
+    border: none;
+    border-radius: 0;
+}
+
+.powerBISection {
+    margin-top: 5px;
+    height: 90%;
+}

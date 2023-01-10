@@ -1,0 +1,22 @@
+#search-bar {
+    margin-left: -11px;
+    margin-bottom: 5px;
+    min-width: 150px;
+}
+
+#search-bar .search-btn {
+    margin-left: -5px;
+}
+
+#search-bar input {
+    all: unset;
+    border: 1px solid #C5CDD1;
+    width: 34%;
+    /* border: 0px; */
+    min-width: 150px;
+    padding: 5px;
+    margin-top: 10px;
+}
+#search-bar ::-webkit-input-placeholder {
+    text-align: center;
+  }

@@ -1,0 +1,37 @@
+.card-block {
+    padding: 6px;
+}
+
+.card-title {
+    margin-bottom: 0px;
+}
+.reportLink
+{
+    text-decoration: none;
+}
+.cardOutline
+{
+    color: #000000; 
+}
+.search {
+    margin-left: 8px;
+}
+
+.card {
+    border: none;
+    border-radius: 0px;
+    line-height: 1.8;
+}
+
+.card-body {
+    padding: 10px 15px 10px 15px;
+}
+
+.card-subtitle {
+    margin-bottom: 3px;
+}
+
+.reports-data {
+    display: flex;
+    flex-wrap: wrap;
+}

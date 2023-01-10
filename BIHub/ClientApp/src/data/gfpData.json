@@ -1,0 +1,146 @@
+{
+  "Geography": {
+    "inputType": "checkbox",
+    "id": 1,
+    "filters": {
+      "childrenFilters": [
+        {
+          "value": "APAC",
+          "id": 101,
+          "levelName": "Area",
+          "levelNumber": 0,
+          "childrenFilters": [
+            {
+              "value": "APAC Judgement",
+              "id": 1001,
+              "levelName": "Region",
+              "levelNumber": 1,
+              "childrenFilters": [
+                {
+                  "value": "APAC Judgement",
+                  "id": 1101,
+                  "levelName": "SubRegion",
+                  "levelNumber": 2,
+                  "childrenFilters": [
+                    {
+                      "levelName": "Subsidiary",
+                      "levelNumber": 3,
+                      "value": "APAC Judgement",
+                      "id": 1201
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "Canada",
+          "id": 101,
+          "levelName": "Area",
+          "levelNumber": 0,
+          "childrenFilters": [
+            {
+              "value": "Canada_Region",
+              "id": 1001,
+              "levelName": "Region",
+              "levelNumber": 1,
+              "childrenFilters": [
+                {
+                  "value": "Canada_SubRegion",
+                  "id": 1101,
+                  "levelName": "SubRegion",
+                  "levelNumber": 2,
+                  "childrenFilters": [
+                    {
+                      "levelName": "Subsidiary",
+                      "levelNumber": 3,
+                      "value": "Canada_Subsidiary",
+                      "id": 1201,
+                      "childrenFilters": [
+                        {
+                          "levelName": "Sub Subsidiary",
+                          "levelNumber": 4,
+                          "value": "Canada_SubSubsidiary",
+                          "id": 1201
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Segment": {
+    "inputType": "radio",
+    "id": 2,
+    "filters": {
+      "childrenFilters": [
+        {
+          "value": "Enterprise",
+          "id": 201,
+          "levelName": "Field Super Summary Segment",
+          "levelNumber": 0,
+          "childrenFilters": [
+            {
+              "value": "Enterprise Commercial_FSu",
+              "id": 2001,
+              "levelName": "Field Summary Segment",
+              "levelNumber": 1,
+              "childrenFilters": [
+                {
+                  "id": 2101,
+                  "value": "Major Commercial_F",
+                  "levelName": "Field Segment",
+                  "levelNumber": 2,
+                  "childrenFilters": [
+                    {
+                      "id": 2201,
+                      "value": "Major - Retail_FS",
+                      "levelName": "Field Sub Segment",
+                      "levelNumber": 3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "SM&C",
+          "id": 201,
+          "levelName": "Field Super Summary Segment",
+          "levelNumber": 0,
+          "childrenFilters": [
+            {
+              "value": "CDS Allocated_FSu",
+              "id": 2001,
+              "levelName": "Field Summary Segment",
+              "levelNumber": 1,
+              "childrenFilters": [
+                {
+                  "id": 2101,
+                  "value": "CDS Allocated_F",
+                  "levelName": "Field Segment",
+                  "levelNumber": 2,
+                  "childrenFilters": [
+                    {
+                      "id": 2201,
+                      "value": "CDS Allocated_FS",
+                      "levelName": "Field Sub Segment",
+                      "levelNumber": 3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

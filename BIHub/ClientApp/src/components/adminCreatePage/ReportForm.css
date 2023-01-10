@@ -1,0 +1,444 @@
+﻿#root-content {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    overflow-y: scroll;
+    position: relative;
+    z-index: 1;
+}
+
+#sectionStyle #sidebar-navigation-pane {
+    display: flex;
+    font-family: 'Segoe UI', 'wf_segoe-ui_normal', helvetica, arial, sans-serif;
+    font-size: 14px;
+}
+
+#main-container {
+    position: relative;
+    flex-direction: column;
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+    flex: 1 1 auto;
+    margin: 0;
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 600px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    margin-left: 5px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+#top-navbar {
+    width: 100%;
+    height: 60px;
+}
+
+#panel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 600px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+#context-container {
+    width: inherit;
+    height: inherit;
+    padding-right: 10px;
+}
+
+.container {
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 40px;
+    overflow: scroll;
+}
+
+.col-25 {
+    float: left;
+    width: 33%;
+    margin-bottom: -18px;
+}
+
+.col-50 {
+    float: left;
+    width: 50%;
+    margin-top: 0px;
+    height: 20vh;
+}
+
+#col-slider {
+    margin-top: 20px;
+    width: 80px;
+}
+
+#col-slider-label {
+    margin-top: 11px;
+}
+
+.col-75 {
+    float: left;
+    width: 67%;
+    margin-top: 6px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#sectionStyle #wizardTabs {
+    align-items: center;
+    padding-top: 10px;
+    position: relative;
+    background-color: inherit;
+    color: #ffffff;
+}
+
+#sectionStyle #wizardTabs .col-sm-3 {
+    padding-right: 12px;
+    padding-left: 0px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 15px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+/* #back-btn {
+    float: left;
+} */
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=button] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=button]:hover {
+    background-color: #45a049;
+}
+
+#wizardTabs {
+    align-items: center;
+    padding-top: 10px;
+    position: relative;
+    background-color: inherit;
+    color: #ffffff;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.col-xs-3 {
+    width: 25%;
+}
+
+.col-sm-3 {
+    width: 25%;
+}
+
+#sectionStyle #wizardTabs .active {
+    background-color: rgb(67, 63, 114) !important;
+    color: #ffffff;
+}
+
+#sectionStyle #wizardTabs .pageInformationWizardTab {
+    background-color: rgba(90, 45, 196, 0.925);
+    color: inherit;
+    display: flex;
+    font: normal 17px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 43px;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    width: 98%;
+}
+
+.pageInformation {
+    background-position: -2px -166px;
+    width: 19px;
+    height: 23px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#sectionStyle .msxRedesignSpriteSharp {
+    background: lightskyblue;
+}
+
+#sectionStyle #wizardTabs .tab-text {
+    padding-top: 9px;
+}
+
+div {
+    display: block;
+}
+
+#sectionStyle .inputButton {
+    padding-bottom: 10px;
+}
+
+#sectionStyle #switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 33px;
+}
+
+#sectionStyle .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+#sectionStyle .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+#sectionStyle .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+#sectionStyle .slider.round:before {
+    border-radius: 50%;
+    margin-bottom: 3px;
+}
+
+#sectionStyle .slider.round {
+    border-radius: 34px;
+}
+
+#sectionStyle input:checked+.slider {
+    background-color: #2196F3;
+}
+
+#sectionStyle input:focus+.slider {
+    box-shadow: 0 0 5px #2196F3;
+}
+
+#sectionStyle input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+#sectionStyle .reportSectionWidth {
+    padding-left: 0px;
+}
+
+#sectionStyle #previewPageLayout .form-group {
+    margin-bottom: 0;
+}
+
+#sectionStyle .pageTitle {
+    font: normal 14px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #515150;
+    margin: 7px 0 10px 0;
+    background-color: inherit;
+}
+
+#sectionStyle .reportValues {
+    font-size: 12px;
+    background-color: inherit;
+    color: inherit;
+}
+
+#sectionStyle .gfpDropdown .btn {
+    border-radius: 0;
+}
+
+#sectionStyle .gfpDropdown .btn-group {
+    width: 100%;
+}
+
+#sectionStyle .gfpDropdown>.btn-group>.btn:first-child {
+    width: 85%;
+}
+
+#sectionStyle .gfpDropdown .dropdown-menu {
+    list-style: none !important;
+}
+
+#sectionStyle .gfpDropdown {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#sectionStyle .editable-input>.form-control {
+    width: 100px;
+    display: inline-block;
+}
+
+#sectionStyle #reportInfo .form-control {
+    display: block;
+    height: 38px;
+    padding: 6px 12px;
+    margin-top: 5px;
+}
+
+#sectionStyle #navStyle {
+    float: left;
+    width: 20%;
+    height: 300px;
+    /* only for demonstration, should be removed */
+    padding: 20px;
+    margin-top: 8px;
+    margin-left: 25px;
+}
+
+#sectionStyle #navStyleUl {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#sectionStyle #articleStyle {
+    float: left;
+    padding: 20px;
+    width: 70%;
+}
+
+#sectionStyle #navStyleFilters {
+    float: left;
+    width: 50%;
+    height: 100px;
+    /* only for demonstration, should be removed */
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#sectionStyle #navStyleUlFilters {
+    list-style-type: disc;
+    padding: 20px;
+}
+
+#articleStyleFilters {
+    float: left;
+    padding: 0px;
+    width: 50%;
+}
+
+.pageInfInputs {
+    background: whitesmoke;
+    margin-bottom: 15px;
+}
+
+#sectionStyle #filters-review, #tags-review {
+    height: 60px;
+    border: 1px solid whitesmoke;
+}
+
+#sectionStyle #filter-group2 {
+    background-color: whitesmoke;
+    padding-left: 10px;
+}
+
+#sectionStyle .myLabel {
+    padding-left: 10px;
+}
+
+#sectionStyle #back-btn-filters, #next-btn-filters, #back-btn-review, #submit-btn-review {
+    background-color: #0078d4;
+}
+
+#sectionStyle #cancel-btn-1, #cancel-btn-2, #back-btn-pageInfo {
+    background-color: #0078d4;
+}
+
+#sectionStyle #back-btn-pageInfo, #back-btn-review {
+    float: left;
+}
+
+#sectionStyle #EnableFilters, #EnablePowerBIFilters, #EnablePowerBITabs {
+    opacity: 0;
+}
+
+#sectionStyle #cancel-btn-1, #cancel-btn-2 {
+    margin-right: 10px;
+}
+
+#sectionStyle .createPageActiveStep {
+    color: #0078d4;
+    border-left: 2px solid #0078d4;
+    padding-left: 11px;
+}
+
+#sectionStyle .createPageSteps>li {
+    margin-bottom: 15px;
+}
+
+#sectionStyle #next-btn-pageInfo {
+    background-color: #91d3eb;
+}
+
+#sectionStyle {
+    overflow: auto;
+}
+
+#sectionStyle .horizLine
+{
+    width: 605px;
+}

@@ -1,0 +1,230 @@
+.rt-resizable-header-content {
+    color: #0078D7;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.rt-resizable-header -sort-desc -cursor-pointer rt-th {
+    box-shadow: #0078D7;
+}
+
+.ReactTable .rt-noData {
+    background: none;
+    top: 29%;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.ReactTable .-pagination .-btn {
+    background: #0078D7;
+}
+
+rt-resizable-header -cursor-pointer rt-th {
+    box-shadow: brown;
+}
+
+.ReactTable .-pagination .-btn {
+    width: 82px;
+    font-size: 100%;
+    color: white;
+}
+
+.ReactTable .-pagination .-previous .-btn {
+    float: right;
+}
+
+.ReactTable .rt-th, .ReactTable .rt-td {
+    padding: 8px 10px;
+    word-wrap: break-word;
+}
+
+.ReactTable .rt-tbody .rt-td {
+    border-right: none;
+}
+
+.searchBar input[type='text'] {
+    width: 100% !important;
+    margin-right: 8px;
+    padding-right: 52px;
+    margin: 8px 8px 8px;
+}
+
+.searchBar .rt-th {
+    all: unset;
+}
+
+/* input:focus {
+ box-shadow: 0 0 5px #0078D7;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #0078D7;
+  outline-color: white ;
+  } */
+
+.search-btn > img {
+    margin-left: -24px;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+
+
+#report-page-table {
+    margin-top: 15px;
+    background-color: white;
+    margin: 1px;
+    height: 87%;
+    overflow: auto;
+    position: absolute;
+    width: 100%;
+}
+
+#test {
+    float: right;
+}
+/* .ReactTable .rt-thead .rt-th.-sort-desc{
+    box-shadow: inset 0 -2px 0 0 #0078D7;
+}
+.ReactTable .rt-thead .rt-th.-sort-asc{
+    box-shadow: inset 0 -2px 0 0 #0078D7;
+} */
+
+.ReactTable .rt-thead .rt-th.-sort-desc, .ReactTable .rt-thead .rt-td.-sort-desc {
+    box-shadow: inset 0 -2px 0 0 rgb(40, 158, 255) !important;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-asc, .ReactTable .rt-thead .rt-td.-sort-asc {
+    box-shadow: inset 0 2px 0 0 rgb(40, 158, 255) !important;
+}
+
+.ReactTable .rt-thead .rt-th.-cursor-pointer:focus {
+    background-color: #d3d3d3;
+}
+
+#nameColReport:hover {
+    color: #0078d4;
+}
+
+
+#descriptionColReport:hover {
+    color: #0078d4;
+}
+
+
+#reportOwnerColReport:hover {
+    color: #0078d4;
+}
+
+#CreatedDateColReport:hover {
+    color: #0078d4;
+}
+
+#nameColReport:focus {
+    background-color: #d3d3d3;
+}
+
+
+#descriptionColReport:focus {
+    background-color: #d3d3d3;
+}
+
+
+#reportOwnerColReport:focus {
+    background-color: #d3d3d3;
+}
+
+#CreatedDateColReport:focus {
+    background-color: #d3d3d3;
+}
+
+.pagination-bottom {
+    margin-top: 50px;
+}
+
+.-pagination {
+    float: right;
+}
+
+.ReactTable .-pagination .-previous {
+    flex: none !important;
+}
+
+.ReactTable .-pagination {
+    box-shadow: none !important;
+    border-top: none !important;
+}
+
+.ReactTable {
+    border: none;
+}
+
+    .ReactTable .rt-thead.-header {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .ReactTable .-pagination .-center {
+        flex: none;
+    }
+
+    .ReactTable .-pagination .-pageInfo {
+        height: 100%;
+    }
+
+    /* input:focus{
+    all: unset;
+} */
+
+    .ReactTable .-pagination .-previous .-btn {
+        height: 35px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    .ReactTable .-pagination .-next .-btn {
+        height: 35px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    .ReactTable .-pagination .-pageSizeOptions {
+        margin: 0px 8px;
+    }
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    color: inherit;
+    background: gray;
+    border-radius: 10px;
+}
+
+.-pagination {
+    padding: 10px !important;
+}
+
+#deleteReport {
+    margin-left: 15px;
+    text-align: right;
+}
+
+#deleteReport, #editReport {
+    cursor: pointer;
+    margin-top: 3px;
+    font-size: 18px;
+}
+
+.CreatedDate {
+    text-align: right;
+}
+
+.EditDelete {
+    text-align: center;
+}
